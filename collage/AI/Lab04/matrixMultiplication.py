@@ -1,4 +1,5 @@
 def multiplyMatrix(A, B):
+    """This is Matrix Multiplication Function to Multiply 2*2 Matrix"""
     C = [[0, 0], [0, 0]]
     for i in range(0, 2):
         for j in range(0, 2):
@@ -22,4 +23,7 @@ for i in range(0, 2):
 
 
 C: list[list[int]] = multiplyMatrix(A, B)
+print("Multiplication of the given matrix is: ")
 print(C)
+print("Docstring: ")
+print(multiplyMatrix.__doc__)
