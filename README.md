@@ -1,0 +1,2 @@
+[<img src="./Docs/CheatSheets/cheatSheet01.jpg" alt="python"/>](./Docs/CheatSheets/cheatSheet01.jpg)
+[<img src="./Docs/CheatSheets/cheatSheet02.jpg" alt="python"/>](./Docs/CheatSheets/cheatSheet02.jpg)
