@@ -1,0 +1,3 @@
+[submodule "Tkinter"]
+	path = Tkinter
+	url = https://github.com/roman-ojha/tkinter.git
