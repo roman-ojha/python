@@ -1,0 +1,15 @@
+-> pip install <package_name> (to install package)
+-> pip list (to list all installed package)
+
+*) Virtual Environment:
+    -> python -m venv venv
+        -> cd .\venv\Scripts
+        -> activate.bat (to activate virtual env using cmd)
+        -> dactivate.bat
+        -> activate.ps1 (to activate virtual env using powershell)
+        -> deactivate (to deactivate virtual env using powershell)
+    -> pip list (to list all package inside virtual environment)
+    -> Inside Project Root directory:
+        -> pip freeze > requirements.txt (this will contain all the requirements package to run project or virtual environment)
+    -> pip install -r .\requirements.txt (to install all the package that are require for the project or included inside requirements.txt)
+    -> NOTE: now you can choose python virtual environment inside visual studio code
