@@ -12,4 +12,12 @@
     -> Inside Project Root directory:
         -> pip freeze > requirements.txt (this will contain all the requirements package to run project or virtual environment)
     -> pip install -r .\requirements.txt (to install all the package that are require for the project or included inside requirements.txt)
+    -> pip install <package_name> (to install package inside virtual environment)
     -> NOTE: now you can choose python virtual environment inside visual studio code
+
+*) Using Poetry for project manager
+	-> https://python-poetry.org/docs
+	-> (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python (install poetry using powershell)
+	-> poetry init (initilized poetry in pre-existing project)
+	-> poetry add <package_name> (install package using poetry)
+	-> poetry install (install packages from pyproject.toml)
