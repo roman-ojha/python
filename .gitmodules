@@ -1,3 +1,9 @@
 [submodule "Tkinter"]
 	path = Tkinter
 	url = https://github.com/roman-ojha/tkinter.git
+[submodule "Tutorial/Tutorial_Projects/Folder_Cleaner"]
+	path = Tutorial/Tutorial_Projects/Folder_Cleaner
+	url = git@github.com:roman-ojha/python-folder-cleaner-tut.git
+[submodule "Tutorial/Tutorial_Projects/Voice_Assistant"]
+	path = Tutorial/Tutorial_Projects/Voice_Assistant
+	url = git@github.com:roman-ojha/python-voice-assistant-tut.git
