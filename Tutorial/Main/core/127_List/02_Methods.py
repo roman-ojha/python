@@ -1,12 +1,5 @@
-""" List """
-grocery = ["Harpic", "vim bar", "deodrant", "Bhindi", "Lollypop", 56]
-print(grocery)
-# this will going to print the list of grocery
-print(grocery[0])
-print(grocery[5])
 number = [4, 2, 1, 5, 9, 7]
-print(number)
-print(number[2])
+
 number.sort()
 # this will going to make number in accending order
 number.reverse()
