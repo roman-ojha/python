@@ -16,18 +16,8 @@ print(max(number))
 # this will going to return maximum number
 print(min(number))
 # this will going to return the munimum number
-number.append(16)
-print(number)
-# this will going to add 16 at the end of the list
-number.append(16)
-number.append(16)
-print(number)
 # you can appened how much you want
 number2 = []
-number2.append(13)
-number2.append(24)
-number2.append(6)
-print(number2)
 # we can make a list like this as well
 number2.insert(1, 4)
 # first argument is index , where you want to insert and another argument is which value you want to insert
