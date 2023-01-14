@@ -5,7 +5,7 @@
 #     return a+b
 
 """  lambda function """
-# we can use labda function like this which operate same as the normal function but have the small line of code
+# we can use lambda function like this which operate same as the normal function but have the small line of code
 # --------------------------------------
 # making a minus function in general way:
 
@@ -17,16 +17,27 @@ def minus1(x, y):
 print(minus1(9, 4))
 # ----------------------------------------------
 # making a minus function in lambda function way:
-# syntax: lambda parameter_list: expression
+# syntax: lambda <parameter_list>: <expression>
 
 
-# minus2 = lambda x,y: x-y
+# minus2 = lambda x, y : x-y
 # print(minus2(9, 4))
+
+
+# returning multiple values:
+
+# add_sub = lambda x, y : (x+y,x-y)
+# a,s=add_sub(5,2)
+# print(a,s)
+
+
+# lambda with default argument
+# add = lambda x, y=3 : x+y
+# print(add(5,4))
+# print(add(5))
 
 # ---------------------------------------------
 # again general function:
-
-
 def fun1(a1):
     return a1[1]
 
@@ -36,7 +47,7 @@ a1.sort(key=fun1)
 # key is an argument which takes function as an input and function need to return element
 """
 here we return a1[1] so this will return second element and sort them so second element are 14,6,23 and after sorting them it become 6,14,23 that way if we print a1 we get after sort [[5, 6], [1, 14], [8, 23]] 
-if we return a1[0] then it will return first elemet and sort them in accending order and if we will print it, it will give :
+if we return a1[0] then it will return first element and sort them in ascending order and if we will print it, it will give :
 [[1, 14], [5, 6], [8, 23]]
 
 """
