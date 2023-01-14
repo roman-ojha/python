@@ -1,14 +1,5 @@
 number = [4, 2, 1, 5, 9, 7]
 
-number.sort()
-# this will going to make number in accending order
-print(number)
-print(number[0:5])
-# you can slice the list as well like this
-print(number[0:6:2])
-# this will also escapeing 1,1 list number form list
-print(number[::-1])
-# in slicing list you only have to take -1 you dont have to take above form that
 print(len(number))
 print(max(number))
 # this will going to return maximum number
@@ -19,13 +10,6 @@ number2 = []
 number2[1] = 14
 # you can change the value of the list like this
 print(number2)
-""" 
-Mutable -> can change 
-Immutable -> cannot change
-
-here list are mutable and Tuples is Immutable
-the value in the tuples are not changeable
- """
 
 tp = (1, 2, 3)
 # this is how we can declare tuple

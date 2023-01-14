@@ -1,4 +1,12 @@
 """ List """
+""" 
+Mutable -> can change 
+Immutable -> cannot change
+
+here list are mutable and Tuples is Immutable
+the value in the tuples are not changeable
+
+ """
 grocery = ["Harpic", "vim bar", "deodrant", "Bhindi", "Lollypop", 56]
 
 # Access all the list elements
