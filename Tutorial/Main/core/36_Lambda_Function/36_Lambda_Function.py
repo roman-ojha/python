@@ -11,7 +11,7 @@
 
 
 def minus1(x, y):
-    return x-y
+    return x - y
 
 
 print(minus1(9, 4))
@@ -20,24 +20,26 @@ print(minus1(9, 4))
 # syntax: lambda <parameter_list>: <expression>
 
 
-# minus2 = lambda x, y : x-y
-# print(minus2(9, 4))
+minus2 = lambda x, y: x - y
+print(minus2(9, 4))
 
 
 # returning multiple values:
 
-# add_sub = lambda x, y : (x+y,x-y)
-# a,s=add_sub(5,2)
-# print(a,s)
+add_sub = lambda x, y: (x + y, x - y)
+a, s = add_sub(5, 2)
+print(a, s)
 
 
 # lambda with default argument
-# add = lambda x, y=3 : x+y
-# print(add(5,4))
-# print(add(5))
+add = lambda x, y=3: x + y
+print(add(5, 4))
+print(add(5))
 
 # ---------------------------------------------
 # again general function:
+
+
 def fun1(a1):
     return a1[1]
 
