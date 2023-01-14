@@ -1,16 +1,3 @@
-number = [4, 2, 1, 5, 9, 7]
-
-print(len(number))
-print(max(number))
-# this will going to return maximum number
-print(min(number))
-# this will going to return the munimum number
-# you can appened how much you want
-number2 = []
-number2[1] = 14
-# you can change the value of the list like this
-print(number2)
-
 tp = (1, 2, 3)
 # this is how we can declare tuple
 # tp[1] = 8
