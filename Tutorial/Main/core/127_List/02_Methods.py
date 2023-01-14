@@ -2,8 +2,6 @@ number = [4, 2, 1, 5, 9, 7]
 
 number.sort()
 # this will going to make number in accending order
-number.reverse()
-# now this will going to reverse the number
 print(number)
 print(number[0:5])
 # you can slice the list as well like this
@@ -18,13 +16,6 @@ print(min(number))
 # this will going to return the munimum number
 # you can appened how much you want
 number2 = []
-# we can make a list like this as well
-number2.insert(1, 4)
-# first argument is index , where you want to insert and another argument is which value you want to insert
-number2.remove(24)
-# this will going to remove
-number2.pop()
-# this will going to remove the last index of the list
 number2[1] = 14
 # you can change the value of the list like this
 print(number2)
