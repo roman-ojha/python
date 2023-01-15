@@ -21,6 +21,11 @@ class Employee:
     def printgood(string):
         print("This is good " + string)
 
+    # Instance variable can inherit
+    # Instance Method can inherit
+    # Class Method can inherit
+    # Static Method can inherit
+
 
 class Programmer(Employee):
     # we can inhaerite Employee class like this
