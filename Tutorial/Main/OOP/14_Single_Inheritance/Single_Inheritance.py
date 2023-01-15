@@ -1,4 +1,3 @@
-
 class Employee:
     no_of_leaves = 8
 
