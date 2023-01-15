@@ -1,4 +1,3 @@
-
 class Employee:
     no_of_leaves = 8
 
@@ -20,7 +19,7 @@ class Employee:
         # here get the string and we can split that string and can be able to make it as an list which will store the value of the object
         return cls(params[0], params[1], params[2])
         # now here we can be  able to return the split string to the constructor that become the value of the object
-        
+
     # the Alternative method to do this is
     @classmethod
     def form_str2(cls, string):
