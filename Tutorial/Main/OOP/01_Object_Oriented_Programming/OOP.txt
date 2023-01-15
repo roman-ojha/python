@@ -1,0 +1,15 @@
+*) OOP:
+    -> Object-oriented Programming (OOP) is a programming language model organized around objects rather than "actions" and data rather than logic.
+
+
+*) Concepts of OOP
+    #> Encapsulation:
+        -> In object-oriented computer programming (OOP) languages, the notion of encapsulation (or OOP Encapsulation) refers to the bundling of data, along with the methods that operate on that data, into a single unit.
+    #> Abstraction
+        -> In object-oriented programming, abstraction is one of three central principles (along with encapsulation and inheritance). Through the process of abstraction, a programmer hides all but the relevant data about an object in order to reduce complexity and increase efficiency.
+    #> Inheritance
+        -> Inheritance in OOP = When a class derives from another class.
+        -> The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+        -> An inherited class is defined by using the extends keyword.
+    #> Polymorphism
+        -> Polymorphism is one of the core concepts of object-oriented programming (OOP) and describes situations in which something occurs in several different forms. In computer science, it describes the concept that you can access objects of different types through the same interface.
