@@ -1,4 +1,4 @@
-# python defaultly solved the dimond shape problem
+# python by default solved the diamond shape problem
 
 class A:
     def met(self):
@@ -16,8 +16,12 @@ class C(A):
 
 
 class D(C, B):
-    def met(self):
-        print("This is a method from class D")
+    # If we don't define the 'met' method in this class then it will call the 'met' method of class 'C'
+
+    # Overriding the 'met' method
+    # def met(self):
+    #     print("This is a method from class D")
+    pass
 
 
 a = A()

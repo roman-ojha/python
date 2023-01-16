@@ -11,7 +11,7 @@ class Employee:
     # now by using one underscore "_" it become protected and it can be able to access by only object and derived class
 
     __pr = 98
-    # now by using tow underscore this is the private variable now this variabel will only be able to access inside the class
+    # now by using tow underscore this is the private variable now this variable will only be able to access inside the class
 
     def __init__(self, aname, asalary, arole):
         self.name = aname
@@ -38,9 +38,9 @@ class Employee:
 emp = Employee("harry", 343, "Programmer")
 
 print(emp._protec)
-# we can be able to access protected variabel by object
+# we can be able to access protected variable by object
 
 print(emp.__pr)
 # now in here we are trying to access private variable which will give an error
 print(emp._Employee__pr)
-# but like this we can be able to access private variabel as well it is called as a "Name mangling"
+# but like this we can be able to access private variable as well it is called as a "Name mangling"
