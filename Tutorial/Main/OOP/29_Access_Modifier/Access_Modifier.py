@@ -22,6 +22,14 @@ class Employee:
     def printdetails(self):
         return f"The Name is {self.name}. Salary is {self.salary} and role is {self.role}"
 
+    # Protected member function
+    def _protected_fun(self):
+        print("Protected function")
+
+    # Private member function
+    def __private_fun(self):
+        print("Private function")
+
     @classmethod
     def change_leaves(cls, newleaves):
         cls.no_of_leaves = newleaves
