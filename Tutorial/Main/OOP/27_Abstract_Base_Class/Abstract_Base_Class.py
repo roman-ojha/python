@@ -33,3 +33,51 @@ class Rectangle(Shape):
 rect1 = Rectangle()
 print(rect1.printarea())
 rect1.show()
+
+
+# EX2:
+class DefenseForce(ABC):  # Abstract class
+    # we can define the constructor and assign some property into it which will get share by all the class that are derived from this class
+    def __init__(self) -> None:
+        self.id = 101
+
+    @abstractmethod
+    def area(self):  # Abstract method
+        pass
+
+    def gun(self):  # Concrete method
+        # Here it share the same concrete value for all the child class now
+        print("Gun = AK")
+
+
+class Army(DefenseForce):
+    def area(self):
+        print("Area = Land")
+
+
+class AirForce(DefenseForce):
+    def area(self):
+        print("Area = Sky")
+
+
+class Navy(DefenseForce):
+    def area(self):
+        print("Area = Sea")
+
+
+army = Army()
+air_force = AirForce()
+navy = Navy()
+
+# 'gun' method is concrete and perform the same method for all the object that derive 'DefenseForce'
+army.gun()
+air_force.gun()
+navy.gun()
+
+print(army.id)
+print(air_force.id)
+print(navy.id)
+
+army.area()
+air_force.area()
+navy.area()
