@@ -17,13 +17,13 @@ class Employee:
         cls.no_of_leaves = newleaves
 
     def __add__(self, other):
-        # this is called as dunder add which will help to do operator overloading and help to add two object variavles
+        # this is called as dunder add which will help to do operator overloading and help to add two object variables
         return self.salary + other.salary
 
     def __truediv__(self, other):
         # https://docs.python.org/3/library/operator.html
         # this is same as the __add__ but it perform division
-        # NOTE: we can go to the internet and search for "Mapping Oerators to Function" there you can find the dunder mehod that which method perform what operotion
+        # NOTE: we can go to the internet and search for "Mapping Operators to Function" there you can find the dunder method that which method perform what operation
         return self.salary / other.salary
 
     def __repr__(self):
@@ -35,14 +35,14 @@ class Employee:
 
 emp1 = Employee("Harry", 345, "Programmer")
 emp2 = Employee("Rohan", 55, "Cleaner")
-print(emp1+emp2)
-# in here we can se that we did emp1+emp2 where this is called as operator overloading wnere python doesnot recognize that what kind of the perform he have to take to calculate the information but when we make __add__ method then it will perform an clculation
-print(emp1/emp2)
+print(emp1 + emp2)
+# in here we can se that we did emp1+emp2 where this is called as operator overloading where python doesn't recognize that what kind of the perform he have to take to calculate the information but when we make __add__ method then it will perform an calculation
+print(emp1 / emp2)
 
 print(emp1)
-# firstly it will prefor to run __str__ method
+# firstly it will perform to run __str__ method
 # and secondly if __str__ method is not exist then this will call __repr__ method
 print(repr(emp1))
 # then this will run __repr__ method
 print(str(emp1))
-# and this will also run __ str__method if __str__doesnot exist then __repr__ will run
+# and this will also run __ str__method if __str__doesn't exist then __repr__ will run
