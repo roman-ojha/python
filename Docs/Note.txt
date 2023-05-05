@@ -1,6 +1,11 @@
 -> pip install <package_name> (to install package)
 -> pip list (to list all installed package)
 
+*) Automatically create/install requirement.txt:
+    ->  pip3 freeze > requirements.txt # python
+    ->  pip freeze > requirements.txt # python
+    ->  pip install -r requirements.txt
+
 *) Virtual Environment:
     -> python -m venv venv
         -> cd .\venv\Scripts
