@@ -29,3 +29,16 @@
 	-> poetry init (initilized poetry in pre-existing project)
 	-> poetry add <package_name> (install package using poetry)
 	-> poetry install (install packages from pyproject.toml)
+
+
+*) Pyenv:
+    -> https://k0nze.dev/posts/install-pyenv-venv-vscode/
+    *) Commands:
+        -> pyenv install --list (to list all the python version)
+        -> pyenv install <python_version> (to install python version)
+        -> pyenv versions (to list all the installed python version)
+        -> pyenv shell <python_version> (to set python version for current shell)
+        -> pyenv global <python_version> (to set python version globally for all shell)
+        *) Setup pyenv for current local project with venv:
+            -> pyenv local <python_version> (create python version file inside project root directory)
+            -> python -m venv .venv (create virtual environment inside project root directory)
