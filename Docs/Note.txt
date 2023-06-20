@@ -1,5 +1,6 @@
 -> pip install <package_name> (to install package)
 -> pip list (to list all installed package)
+-> pip show <package_name> (to show package details)
 
 *) Automatically create/install requirement.txt:
     ->  pip3 freeze > requirements.txt # python
