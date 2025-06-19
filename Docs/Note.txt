@@ -15,6 +15,7 @@
         -> dactivate.bat
         -> activate.ps1 (to activate virtual env using powershell)
         -> deactivate (to deactivate virtual env using powershell)
+        -> source activate (to activate virtual env using bash)
     -> pip list (to list all package inside virtual environment)
     -> Inside Project Root directory:
         -> pip freeze > requirements.txt (this will contain all the requirements package to run project or virtual environment)
